@@ -25,7 +25,7 @@ Example
 -----
 
 ``` shell
-python shellshock-scanner-chrome.py -s "inurl:cgi-bin filetype:sh" -p 2
+python ShellShock_Bot.py -s "inurl:cgi-bin filetype:sh" -p 2
 ```
 
 Open up Chrome/Chromium, it will search for the dork "inurl:cgi-bin filetype:sh", and visit the first two pages of results where one page = 100 results. Then it will test each result URL for Shellshock vulnerability. -p option will default to 1 page if not given.
