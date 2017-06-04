@@ -21,6 +21,8 @@ from selenium.webdriver.common.keys import Keys
 
 # If this script no longer fetches any results check the XPath
 
+#Credits to DanMcInerney for the original sourcecode, https://github.com/DanMcInerney/shellshock-hunter-google/
+
 VULN_FOUND = None
 
 print "###########################################################"
